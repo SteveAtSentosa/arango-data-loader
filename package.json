@@ -1,0 +1,20 @@
+{
+  "name": "arango-data-loader",
+  "version": "0.0.1",
+  "description": "Load data into arangodb via excel spreadsheets",
+  "main": "index.js",
+  "repository": "git@github.com:SteveAtSentosa/arango-data-loader.git",
+  "author": "Steven Saunders <steve@sentosatech.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "arangojs": "^7.2.0",
+    "exceljs": "^4.2.0",
+    "hash.js": "^1.1.7",
+    "ramda": "^0.27.1",
+    "ramda-adjunct": "^2.33.0"
+  },
+  "scripts": {
+    "test-loader": "node load-spreadsheet.js test/test-sheet.xlsx arango-data-loader clean"
+  }
+}
