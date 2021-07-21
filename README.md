@@ -2,11 +2,11 @@
 
 ### Roadmap 0.0.1 (alpha)
 
+- [ ] documentation for current state of the code
 - [ ] get arango creds from env/command line
 - [ ] evolve deprecated useDatabase() -> createDatabase()
 - [ ] make returning of loaded data optional
 - [ ] evolve command line load-spreadsheet.js -> bin/arango-loader (or similar)
-- [ ] documentation for current state of the code
 - [ ] build scripts / package for npm
 - [ ] publish
 
